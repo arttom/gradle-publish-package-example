@@ -6,8 +6,9 @@ class ExampleDtoTest {
 
 
     void testDto() {
-        ExampleDto exampleDto = new ExampleDto("id", "name");
+        ExampleDto exampleDto = new ExampleDto("id", "name", "title");
         assertEquals("id", exampleDto.id());
         assertEquals("name", exampleDto.name());
+        assertEquals("title", exampleDto.title());
     }
 }
